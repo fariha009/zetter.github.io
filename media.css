@@ -1,0 +1,37 @@
+:root {
+    --viewport: 200vh;
+  }
+
+
+@media screen and (max-width: 900px) {
+    .achievement {
+      display: none;
+    }
+    .navbar{
+        margin-left: 0;
+    }
+    .paragraph{
+        font-size: 17px;
+    }
+    .progress_bar_verticle{
+        margin-left: 20px;
+    }
+    .hero_img{
+        height: 345px;
+        margin-top: 100px;
+    }
+    .hero_heading h1,
+    .heading{
+        font-size: 29px !important;
+    }
+    .second_heading{
+        font-size:29px ;
+    }
+
+    .special{
+        height: var(--viewport);
+    }
+    .contact{
+        height: var(--viewport);
+    }
+    }
